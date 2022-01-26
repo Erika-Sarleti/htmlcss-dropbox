@@ -168,7 +168,7 @@ h1{
     border: 1px solid black;
 }
 
-.container-plans{
+.container-card{
     margin: 0 -25px;
 }
 h2{
@@ -235,7 +235,7 @@ h4{
 }
 /* sezione testo */
 
-.feature{
+.description{
     padding: 0 2em;
     font-size: 18px;
 }
@@ -245,4 +245,9 @@ h4{
     background-color: white;
     border: 1px solid black;
     margin-top: 1em;
+}
+.feature{
+    width: calc(100% / 3 - 50px);
+    margin: 0 25px 5em;
+
 }
