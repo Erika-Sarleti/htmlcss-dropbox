@@ -44,7 +44,7 @@ html{
     padding: .3em 3.5em;
 }
 .equal-padding{
-    margin: 2em 0;
+    margin-top: 2em;
 }
 ul{
     list-style: none;
@@ -60,16 +60,24 @@ ul{
 .right{
     float:right;
 }
-i{
-    padding: 0 .5em;
-}
 h3{
     font-size: 2em;
 }
+.col-50{
+    width: 50%;
+}
+
+.img{
+    width:100%;
+}
+
 /* header section */
 
 header{
-    margin: 1.5em 1em;
+    padding: 1.3em 1em;
+    position: fixed;
+    background-color: white;
+    width:100%
 }
 
 .logo-container{
@@ -96,7 +104,7 @@ header{
 
 section:first-of-type{
     background-color: #b4d0e7;  
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h1{
@@ -112,7 +120,7 @@ h1{
     max-width: 70%;
 }
 .img-big > img{
-    max-width:100%;
+    width: 100%;
     margin-top: 1rem;
     margin-bottom: -5rem;
 }
@@ -176,7 +184,7 @@ h4{
 .plan-icon{
     text-align: center;
     border-bottom: 1px solid black;
-    padding: 3px 0;
+    padding: 5px 0;
 }
 .plan-list{
     width: 100%;
@@ -184,6 +192,11 @@ h4{
 }
 .plan-list > i{
     vertical-align: middle;
+    line-height: 21px;
+    padding-right: .5em;
+}
+.fa-check{
+    color: #1e73ff;
 }
 .card-list {
     width: calc(100% - 20px - 1em) ;
@@ -204,10 +217,10 @@ h4{
     padding-bottom: 2em;
 }
 .singolo:last-child{
-    margin-bottom: calc(1.8em + 1em + 8em)
+    margin-bottom: 11em;
 }
 .premium:last-child{
-    margin-bottom: 8em;
+    margin-bottom: 7em;
 }
 .row{
     width: 100%;
@@ -219,4 +232,17 @@ h4{
 
 .horizontal-container p{
     margin: 1.5em 0;
+}
+/* sezione testo */
+
+.feature{
+    padding: 0 2em;
+    font-size: 18px;
+}
+
+.button.small.partner{
+    color:black;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 1em;
 }
