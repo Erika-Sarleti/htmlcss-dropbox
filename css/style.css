@@ -33,11 +33,18 @@ html{
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    padding: .3em 0;
 }
 
-.button, .small{
+.button.small{
     padding: 0.3em 0.8em;
     
+}
+.button.medium{
+    padding: .3em 3.5em;
+}
+.equal-padding{
+    margin: 2em 0;
 }
 ul{
     list-style: none;
@@ -53,7 +60,12 @@ ul{
 .right{
     float:right;
 }
-
+i{
+    padding: 0 1em;
+}
+h3{
+    font-size: 2em;
+}
 /* header section */
 
 header{
@@ -112,6 +124,9 @@ h1{
     font-size: 2em;
     font-weight: 900;
 }
+
+/* sezione scelta piano business */
+
 .checkbox{
     position: relative;
     padding-left: 1.2em;
@@ -120,7 +135,6 @@ h1{
 .checkbox::before{
     content: " ";
     display: inline-block;
-    /* padding: 0.5em; */
     min-width: 1em;
     height: 1em;
     border: 1px solid rgb(185, 185, 185);
@@ -141,16 +155,20 @@ h1{
     margin: 1.5em 25px;
     display: inline-block;
 }
+.horizontal-container{
+    width: calc(1200px - 50px);
+    border: 1px solid black;
+}
+
 .container-plans{
     margin: 0 -25px;
 }
 h2{
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 2rem 0 4rem;
 }
-
-h3, h4{
-    margin: 2em 0;
+h4{
+    font-size: 1.2rem;
 }
 .plan-card{
     padding: 0 1.5em;  
@@ -190,4 +208,15 @@ h3, h4{
 }
 .premium:last-child{
     margin-bottom: 8em;
+}
+.row{
+    width: 100%;
+}
+.row > *{
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.horizontal-container p{
+    margin: 1.5em 0;
 }
