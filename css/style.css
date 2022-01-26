@@ -138,12 +138,17 @@ h1{
 .vertical-container{
     width: calc(1200px / 3 - 50px);
     border: 1px solid black;
-    margin: 1.5em 0;
+    margin: 1.5em 25px;
+    display: inline-block;
+}
+.container-plans{
+    margin: 0 -25px;
 }
 h2{
     font-size: 2.5em;
-    padding: 2em 0;
+    margin: 2rem 0 4rem;
 }
+
 h3, h4{
     margin: 2em 0;
 }
@@ -170,7 +175,7 @@ h3, h4{
     width: 100%;
     margin: 2em 0;
 }
-.plan-card:{
+.plan-card{
     border-bottom: 1px solid black;
 }
 .card-cta{
@@ -181,5 +186,8 @@ h3, h4{
     padding-bottom: 2em;
 }
 .singolo:last-child{
-    margin-bottom: calc(1.5em + 1em + 8em)
+    margin-bottom: calc(1.8em + 1em + 8em)
+}
+.premium:last-child{
+    margin-bottom: 8em;
 }
