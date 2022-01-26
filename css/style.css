@@ -61,7 +61,7 @@ ul{
     float:right;
 }
 i{
-    padding: 0 1em;
+    padding: 0 .5em;
 }
 h3{
     font-size: 2em;
@@ -186,7 +186,7 @@ h4{
     vertical-align: middle;
 }
 .card-list {
-    width: calc(100% - 16px);
+    width: calc(100% - 20px - 1em) ;
     vertical-align: middle;
 }
 .button-card{
