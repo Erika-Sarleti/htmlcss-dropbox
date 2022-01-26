@@ -31,6 +31,8 @@ html{
     background-color: #0061ff;
     color: white;
     text-decoration: none;
+    display: inline-block;
+    text-align: center;
 }
 
 .button, .small{
@@ -110,7 +112,11 @@ h1{
     font-size: 2em;
     font-weight: 900;
 }
-
+.checkbox{
+    position: relative;
+    padding-left: 1.2em;
+    margin-right: 1.5em;
+}
 .checkbox::before{
     content: " ";
     display: inline-block;
@@ -120,6 +126,9 @@ h1{
     border: 1px solid rgb(185, 185, 185);
     border-radius: 50%;
     box-sizing: border-box;
+    position: absolute;
+    top: 3px;
+    left: 0px;
 }
 .checkbox:first-of-type::before{
     border: 4px solid rgb(0, 107, 194);
@@ -129,10 +138,48 @@ h1{
 .vertical-container{
     width: calc(1200px / 3 - 50px);
     border: 1px solid black;
+    margin: 1.5em 0;
 }
-
+h2{
+    font-size: 2.5em;
+    padding: 2em 0;
+}
+h3, h4{
+    margin: 2em 0;
+}
+.plan-card{
+    padding: 0 1.5em;  
+}
 .plan-icon{
     text-align: center;
     border-bottom: 1px solid black;
     padding: 3px 0;
+}
+.plan-list{
+    width: 100%;
+    margin: 1.5em 0;
+}
+.plan-list > i{
+    vertical-align: middle;
+}
+.card-list {
+    width: calc(100% - 16px);
+    vertical-align: middle;
+}
+.button-card{
+    width: 100%;
+    margin: 2em 0;
+}
+.plan-card:{
+    border-bottom: 1px solid black;
+}
+.card-cta{
+    margin-bottom: 4.5em;
+}
+.underline{
+    border-bottom: 1px solid rgb(119, 119, 119);
+    padding-bottom: 2em;
+}
+.singolo:last-child{
+    margin-bottom: calc(1.5em + 1em + 8em)
 }
