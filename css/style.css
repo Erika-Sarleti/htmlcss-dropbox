@@ -99,6 +99,25 @@ header{
     width: calc(100% - 127px - 63.8px);
     margin: 0 auto;
     display: inline-block;
+    position: relative;
+}
+.hover-trigger{
+    position: relative;
+}
+.hover-menu{
+    position: absolute;
+    top: 75px;
+    left:0;
+    width: 220px;
+    background-color: white;
+    display: none;
+    border: .5px solid grey;
+}
+.hover-trigger:hover .hover-menu{
+    display: block;
+}
+.hover-item{
+    margin: 1rem;
 }
 
 .header-list li{
@@ -378,11 +397,22 @@ section.full-width{
     
     width: 100%;
 }
+.question-container{
+    width: 100%;
+}
 .question{
     font-weight: bold;
     line-height: 6rem;
 }
-
+.answer{
+    width: 70%;
+    padding-bottom: 2.5em;
+    font-weight: 400;
+    display: none;
+}
+.faq:hover .answer{
+    display: block;
+}
 .fa-angle-down{
     line-height: 6rem;
 }
