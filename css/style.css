@@ -375,4 +375,40 @@ section.full-width{
 }
 .faq:last-of-type{
     border-bottom: 1px solid #dcdcde;
+    margin-bottom: 7rem;
 }
+ /* footer */
+
+ footer{
+     background-color: black;
+     padding-left: 2rem;
+     padding-bottom: 3rem;
+ }
+
+ .info{
+     color: white;
+ }
+
+ .footer-container > li{
+     display: inline-block;
+     min-width: calc(100% / 5 - 2rem);
+     margin-bottom: 5rem;
+ }
+ footer h4{
+     margin-bottom: 1em;
+ }
+
+ .info-item{
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 1.6em;
+ }
+ .lang-container{
+     display: inline-block;
+     margin-bottom: 4rem;
+     padding-top: 2rem;
+     border-top: 1px solid #626262;
+     font-size: 14px;
+     font-weight: 400;
+     color: #626262;
+ }
