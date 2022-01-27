@@ -9,6 +9,7 @@
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
+    scroll-behavior: smooth;
 }
 
 .full-width{
@@ -42,6 +43,9 @@ html{
 }
 .button.medium{
     padding: .3em 3.5em;
+}
+.button:hover{
+    filter: brightness(1.2);
 }
 .equal-padding{
     margin-top: 2em;
@@ -80,7 +84,7 @@ header{
     padding: 1.3em 1em;
     position: fixed;
     background-color: white;
-    width:100%
+    width:100%;
 }
 
 .logo-container{
@@ -140,9 +144,12 @@ h1{
     margin: 1em 0 2em;
 }
 
-.text > i{
+.text i{
     font-size: 2em;
     font-weight: 900;
+}
+.text :last-child:visited{
+    color: black;
 }
 
 /* sezione scelta piano business */
@@ -258,6 +265,9 @@ h4{
     border: 1px solid black;
     margin-top: 1em;
 }
+.button.partner:hover{
+    filter: brightness(.95);
+}
 .feature{
     width: calc(100% / 3 - 50px);
     margin: 0 25px 5em;
@@ -357,6 +367,9 @@ section.full-width{
     background-color: white;
     color: black;
 }
+.button.white:hover{
+    filter: brightness(.95);
+}
 /* sezione FAQ */
 
 
@@ -402,6 +415,9 @@ section.full-width{
      font-size: 16px;
      font-weight: 400;
      line-height: 1.6em;
+ }
+ .info-item li:hover{
+     text-decoration: underline;
  }
  .lang-container{
      display: inline-block;
