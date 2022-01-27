@@ -63,8 +63,11 @@ ul{
 h3{
     font-size: 2em;
 }
-.col-50{
-    width: 50%;
+.col-60{
+    width: 60%;
+}
+.col-40{
+    width: 40%;
 }
 
 .img{
@@ -98,6 +101,15 @@ header{
     display: inline-block;
     vertical-align: middle;
     padding: 0 2em;
+}
+
+.header-list a{
+    color: black;
+    text-decoration: none;
+    padding: 26px 0;
+}
+.header-list a:hover{
+    border-bottom: 2px solid rgb(109, 109, 109) ;
 }
 
 /* 1st section */
@@ -138,7 +150,7 @@ h1{
 .checkbox{
     position: relative;
     padding-left: 1.2em;
-    margin-right: 1.5em;
+    margin:3rem 1.5em 0 0;
 }
 .checkbox::before{
     content: " ";
@@ -173,7 +185,7 @@ h1{
 }
 h2{
     font-size: 3em;
-    margin: 2rem 0 4rem;
+    margin: 2rem 0 ;
 }
 h4{
     font-size: 1.2rem;
@@ -250,4 +262,117 @@ h4{
     width: calc(100% / 3 - 50px);
     margin: 0 25px 5em;
 
+}
+/* sezione features */
+.important-text{
+    text-decoration: underline;
+}
+/* sezione aziende partner */
+
+.square-box{
+    width: 30%;
+    /* padding-bottom: 30%; */
+}
+.square{
+    width: 50%;
+    padding-bottom: 50%;
+    position: relative;
+}
+.special-square{
+    width: 90%;
+    padding-bottom:90%;
+    background-color: #a2d39b;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.svg-logo{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+
+}
+.bordeaux{
+    background-color: #61082b;
+
+}
+.lightblue{
+    background-color: #0093ce;
+}
+.green{
+    background-color: #d0e9cd;
+}
+.red{
+    width: 50%;
+    padding-bottom: 50%;
+    background-color: #ff1c1c;
+}
+.other-red{
+    background-color: #d5001f;
+}
+.sky{
+    background-color: #b4d0e7;
+}
+.blue{
+    background-color: #0d2481;
+}
+.yellow{
+    background-color: #ffd830;
+}
+.container-st{
+    background-color: #f5f5f5;
+    width: 40%;
+    padding-bottom: 30%;
+    position: relative;
+}
+.statement{
+    padding: 3em 3em 0;
+    position: absolute;
+    top:0;
+    left:0;
+    max-height: 100%;
+    overflow: scroll;
+}
+.special-logo{
+    width: 30%;
+}
+/* sezione cta*/
+
+section.full-width{
+    background-color: #b4d0e7;
+}
+.purple{
+    color:#61082b;
+    padding-bottom: 7rem;
+    vertical-align: middle;
+    margin-top: -3rem;
+}
+
+.white{
+    vertical-align: middle;
+    background-color: white;
+    color: black;
+}
+/* sezione FAQ */
+
+
+.faq{
+    border-top: 1px solid #dcdcde;
+    
+    width: 100%;
+}
+.question{
+    font-weight: bold;
+    line-height: 6rem;
+}
+
+.fa-angle-down{
+    line-height: 6rem;
+}
+.faq:last-of-type{
+    border-bottom: 1px solid #dcdcde;
 }
