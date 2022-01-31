@@ -86,6 +86,7 @@ header{
     position: fixed;
     background-color: white;
     width:100%;
+    border-bottom:1px solid lightgrey ;
 }
 
 .logo-container{
@@ -112,7 +113,7 @@ header{
     width: 220px;
     background-color: white;
     display: none;
-    border: .5px solid grey;
+    border: .5px solid lightgrey;
 }
 .hover-trigger:hover .hover-menu{
     display: block;
